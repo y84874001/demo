@@ -1,0 +1,40 @@
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,hr,blockquote,object,iframe,fieldset,input,legend,form,th,td{margin:0;padding:0}
+ul,ol,li{list-style:none}
+input{border:0;outline: none;}
+button{border:0;outline:none;}
+a{text-decoration:none}
+.clearfixd:after{
+    content:'\200B';
+    display:block;
+    height:0;
+    clear:both;
+}
+/*common*/
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+/*h1{font-size:24px}h2{font-size:20px}h3{font-size:18px}h4{font-size:16px}h5{font-size:14px}h6{font-size:14px}*/
+i,b{font-style:normal;font-weight:normal}
+table{border-collapse:collapse;border-spacing:0; width:100%; background:#fff}
+td{padding:3px 5px;}
+th{font-weight:normal; background:#e7f4fe; height:40px}
+table,td,th{ border:1px solid #ddd}
+table caption{ font-size:16px; text-align:left; padding-bottom:10px}
+textarea{resize: none;outline: none;}
+.fl{float:left}
+.fr{float:right}
+.clearBoth{clear:both}
+.mc{margin:0 auto}
+.mg20{margin:0.5rem}
+.mg40{margin:1rem 7%}
+.mgb{margin-bottom:1.225rem;}
+.pabMax{padding-bottom:6rem;}
+.pa60{padding-top:1.5rem;padding-bottom: 1.5rem;}
+.pr{position:relative;*zoom:1}
+.pa{position:absolute}
+.tc{text-align:center}
+.tl{text-align:left !important}
+.tr{text-align:right !important}
+.tt{margin-top:2rem;}
+.bgblue{background:#c5e0fe;}
+body{height:100%;font-family:微软雅黑;width:100%;}
+.hide{display: none ;}
+.page{position: absolute;}
